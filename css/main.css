@@ -85,7 +85,6 @@ video {
   font-size: 100%;
   font: inherit;
 }
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -132,8 +131,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* End Of Reset */
-/* General styles */
 .no-gutter > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
@@ -188,7 +185,6 @@ a:hover {
   color: #10cab7;
   text-decoration: none;
 }
-/* Navbar */
 nav {
   z-index: 9999;
   width: 400px;
@@ -241,7 +237,6 @@ nav ul li {
 .lower-menu li a {
   font-size: 20px;
 }
-/* Hero */
 .hero {
   text-align: center;
   background-image: url(../img/mountain.jpg);
@@ -275,7 +270,6 @@ nav ul li {
   -moz-box-shadow: 0px 4px 18px 0px rgba(36, 39, 46, 0.1);
   box-shadow: 0px 4px 18px 0px rgba(36, 39, 46, 0.1);
 }
-/* Services */
 .title {
   margin: 0px auto;
   padding: 25px 0px 50px;
@@ -320,7 +314,6 @@ nav ul li {
   -moz-box-shadow: 0px 10px 25px -3px rgba(38, 41, 46, 0.25);
   box-shadow: 0px 10px 25px -3px rgba(38, 41, 46, 0.25);
 }
-/* portfolio */
 .portfolio {
   background-color: #fafafa;
   margin-top: 80px;
@@ -349,7 +342,6 @@ figure:hover + span {
   bottom: -36px;
   opacity: 1;
 }
-/*Show More Button*/
 .show-more-btn {
   margin: 0 auto;
 }
@@ -376,11 +368,11 @@ a.button2:hover {
   color: #10cab7;
   box-shadow: rgba(44, 71, 85, 1) 0 80px 0px 1px inset;
 }
-/* Hiden Gallery */
+
 .hidden-gallery {
   display: none;
 }
-/* Zoom In */
+
 .hover01 figure img {
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -391,7 +383,7 @@ a.button2:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* about */
+
 .about-img img {
   position: absolute;
   top: 40px;
@@ -434,7 +426,7 @@ a.button2:hover {
   top: 170px;
   height: 50px;
 }
-/* contact */
+
 .contact {
   background-color: #fafafa;
   margin-top: 100px;
@@ -470,7 +462,7 @@ a.button2:hover {
   float: left;
   margin-top: 27px;
 }
-/* footer */
+
 .footer {
   background-color: #2c4755;
   padding: 20px;
@@ -485,7 +477,7 @@ a.button2:hover {
 .footer span {
   color: #10cab7;
 }
-/* Responsive Styling */
+
 @media only screen and (max-width: 570px) and (min-width: 320px) {
   nav {
     width: 320px;
@@ -690,5 +682,3 @@ a.button2:hover {
     font-size: 22px;
   }
 }
-
-/* Responsive Styling */
