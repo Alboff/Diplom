@@ -387,7 +387,7 @@ a.button2:hover {
 .about-img img {
   position: absolute;
   top: 40px;
-  left: 220px;
+  /* left: 220px; */
   width: 200px;
   height: auto;
   -webkit-box-shadow: 0px 10px 25px -3px rgba(38, 41, 46, 0.25);
